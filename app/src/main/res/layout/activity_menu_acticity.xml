@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context=".Activities.MenuActicity">
+
+
+    <Button
+        android:id="@+id/lista_pacjentow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="58.5dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="58.5dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Lista Pacjentów" />
+
+    <Button
+        android:id="@+id/dodaj_pacjenta_button"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/lista_pacjentow_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="58.5dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="58.5dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Dodaj pacjenta" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/dodaj_pacjenta_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="58.5dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="58.5dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Dodaj ćwiczenie" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="58.5dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="58.5dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Button" />
+</RelativeLayout>
